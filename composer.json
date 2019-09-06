@@ -1,0 +1,34 @@
+{
+  "name": "gustarus/yii2-tree",
+  "description": "Build trees with the models",
+  "keywords": [
+    "yii2",
+    "yii2-tree",
+    "tree",
+    "gustarus"
+  ],
+  "type": "yii2-extension",
+  "license": "MIT",
+  "support": {
+    "issues": "https://github.com/gustarus/yii2-tree/issues?state=open",
+    "forum": "https://gitter.im/gustarus/yii2-tree",
+    "source": "https://github.com/gustarus/yii2-tree"
+  },
+  "authors": [
+    {
+      "name": "Pavel Kondratenko",
+      "email": "iam@kondratenko.me",
+      "homepage": "http://kondratenko.me"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {
+    "php": ">=5.4.0",
+    "yiisoft/yii2": "^2.0.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "gustarus\\tree\\": ""
+    }
+  }
+}
